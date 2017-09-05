@@ -21,6 +21,10 @@ module.exports = {
     'arrow-parens': 0,
     // allow async-await
     'generator-star-spacing': 0,
+    // 首行缩进
+    'indent': [2, 4, { 'SwitchCase': 1 }],
+    // 函数名后（前需要加空格
+    'space-before-function-paren': 'off',
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
