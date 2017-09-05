@@ -11,7 +11,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+$red: #91ad11;
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,5 +20,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  img{
+      width: 500px;
+      border: 10px $red solid;
+  }
 }
 </style>
